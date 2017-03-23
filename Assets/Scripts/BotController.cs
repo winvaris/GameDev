@@ -21,7 +21,7 @@ public class BotController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
+		this.transform.Rotate (Vector3.forward * -10);
 	}
 
 	void FixedUpdate () {
